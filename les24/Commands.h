@@ -74,5 +74,6 @@ public:
     void undo() override
     {
         task->setStatus(oldStatus);
+
     }
 };
